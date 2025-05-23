@@ -2,46 +2,50 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the official documentation for The Recyclery Collective Website — a student-led project built as part of Northwestern University’s Develop+ Innovate for Social Change (DISC) club.
 
-## Getting Started
+This documentation provides technical guidance and context for developers, designers, and stakeholders contributing to the continued development and maintenance of the site.
 
-Get started by **creating a new site**.
+## Overview
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+The website serves as a digital platform for The Recyclery Collective, a nonprofit focused on bicycle education, access, and sustainability in the Evanston and Chicago area. This project aims to modernize their digital presence, making it easier for community members to access services, volunteer opportunities, and events.
 
-### What you'll need
+## Tech Stack
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Frontend
 
-## Generate a new site
+- **Next.js** for server-side rendering and routing
+- **React** for building component-based UIs
+- **Tailwind CSS** for utility-first styling
+- **TypeScript** for typed JavaScript
 
-Generate a new Docusaurus site using the **classic template**.
+### Backend
 
-The classic template will automatically be added to your project after you run the command:
+- **Node.js** for server-side JavaScript
+- **Express** for API routing
+- **Supabase** for database and auth services
 
-```bash
-npm init docusaurus@latest my-website classic
+
+### Development Tools
+
+- **Git + GitHub** for version control and collaboration
+- **ESLint + Prettier** for code linting and formatting
+- **VS Code** as the recommended code editor
+
+
+## Project Structure
+```
+/
+├── apps/
+│   ├── backend/      ← Express + Node.js API
+│   └── frontend/     ← React (likely with Vite) client
+├── packages/         ← Shared packages/modules if any (e.g., UI lib, utils)
+├── .github/          ← GitHub Actions CI workflows
+├── .vscode/, .turbo/ ← Config dirs
+├── turbo.json        ← Turborepo pipeline config
+├── package.json      ← Root-level dependencies (for all workspaces)
+
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
