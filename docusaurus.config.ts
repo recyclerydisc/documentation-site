@@ -55,7 +55,7 @@ const config: Config = {
         redirects: [
           {
             from: ['/'],
-            to: '/docs/intro',
+            to: '/docs/category/project-documentation',
           },
         ],
       },
@@ -94,7 +94,7 @@ const config: Config = {
           items: [
             {
               label: 'RECY Website',
-              to: '/docs/intro',
+              to: '/docs/category/project-documentation',
             },         {
               label: 'The Recyclery',
               href: 'https://the-recyclery.vercel.app/',
