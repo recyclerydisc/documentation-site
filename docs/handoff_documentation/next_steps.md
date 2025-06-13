@@ -20,3 +20,13 @@ To update photo content on the deployed website, follow these steps:
 6. All changes will reflect on the public-facing site once saved.
 
 > **Note:** Only users with administrative credentials have access to this functionality. If you encounter any issues, contact the project maintainer for support.
+
+# Open Issues (Recommended Future Work)
+
+While we haven’t formally opened GitHub issues, we’ve identified the following areas as potential future improvements:
+
+- Performance tuning and optimization
+- Dark mode styling for improved accessibility
+- Automated backups for data reliability
+
+We recommend tracking these by creating GitHub issues under a `future-work` label.
